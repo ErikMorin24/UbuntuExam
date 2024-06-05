@@ -1,0 +1,25 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .todo-item button {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
